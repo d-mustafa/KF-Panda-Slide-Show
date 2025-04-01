@@ -55,15 +55,12 @@ function randomCharacter() {
 
 // Slideshow Button
 slideshowBtn.addEventListener('click', function() {
-    console.log("hi")
     if (!slideshowActivated) {
         startSlideshow();
         slideshowBtn.innerHTML = "End The SlideShow";
-        console.log("hey")
     } else {
         endSlideshow();
         slideshowBtn.innerHTML = "Start The SlideShow";
-        console.log("bye")
     }
 });
 
