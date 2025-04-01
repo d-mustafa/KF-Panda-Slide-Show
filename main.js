@@ -56,9 +56,11 @@ function randomCharacter() {
 // Slideshow Button
 slideshowBtn.addEventListener('click', function() {
     if (!slideshowActivated) {
-        startSlideshow()
+        startSlideshow();
+        slideshowBtn.innerHTML = "End The SlideShow";
     } else {
-        endSlideshow()
+        endSlideshow();
+        slideshowBtn.innerHTML = "Start The SlideShow";
     }
 });
 
