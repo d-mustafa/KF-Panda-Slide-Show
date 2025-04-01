@@ -58,9 +58,11 @@ slideshowBtn.addEventListener('click', function() {
     if (!slideshowActivated) {
         startSlideshow();
         slideshowBtn.innerHTML = "End The SlideShow";
+        console.log(slideshowBtn.innerHTML)
     } else {
         endSlideshow();
         slideshowBtn.innerHTML = "Start The SlideShow";
+        console.log(slideshowBtn.innerHTML)
     }
 });
 
